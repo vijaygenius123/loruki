@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+:root{
+    --primary-color: #047aed;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     color: #333;
@@ -36,7 +40,7 @@ img {
 }
 
 .navbar {
-    background: #047aed;
+    background: var(--primary-color);
     color: whitesmoke;
     height: 70px;
 }
@@ -71,4 +75,24 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.showcase h1{
+    font-size: 2em;
+}
+
+.showcase{
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
