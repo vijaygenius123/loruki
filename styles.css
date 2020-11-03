@@ -93,6 +93,22 @@ img {
     height: 350px;
 }
 
+.showcase .form-control{
+    margin: 2em 0;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"]{
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid #b4becb;
+    font-size: 1em;
+}
+
+.showcase-form input:focus{
+    outline: none;
+}
+
 .showcase {
     height: 400px;
     background-color: var(--primary-color);
